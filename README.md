@@ -23,11 +23,11 @@ It is ideal for technicians, computer service centers, and digital forensics.
 
 ## 📸 Screenshots
 
-### 🔷 Main Menu
+### Main Menu
 
 ![Main Menu](assets/images/main-menu.png)
 
-### 🔷 Summary Log View
+### Summary Log View
 
 ![Summary Logs](assets/images/log-view.png)
 
