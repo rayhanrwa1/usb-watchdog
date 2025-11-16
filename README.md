@@ -140,7 +140,7 @@ SOFTWARE.
 
 ---
 
-## 🧑‍💻 Author
+## 🧑‍💻 Author by
 
 Developed by **rayhanrwa**  
 For inquiries, improvements, or contributions—feel free to reach out or open an issue.
