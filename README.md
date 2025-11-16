@@ -24,30 +24,32 @@ It is ideal for technicians, computer service centers, and digital forensics.
 ## 📸 Screenshots
 
 ### 🔷 Main Menu
+
 ![Main Menu](assets/images/main-menu.png)
 
 ### 🔷 Summary Log View
+
 ![Summary Logs](assets/images/log-view.png)
 
 ---
 
 ## 🚀 Features
 
-- Real-time USB plug/unplug detection  
-- Hidden file & suspicious shortcut detection  
-- Autorun malware alert system  
-- Summary & detailed file activity logging  
-- Background silent mode via `pythonw.exe`  
-- Windows notification system  
-- Advanced tools: restart, clean logs, status check, silent mode toggle  
+- Real-time USB plug/unplug detection
+- Hidden file & suspicious shortcut detection
+- Autorun malware alert system
+- Summary & detailed file activity logging
+- Background silent mode via `pythonw.exe`
+- Windows notification system
+- Advanced tools: restart, clean logs, status check, silent mode toggle
 
 ---
 
 ## 📘 Documentation
 
-- 🔧 [Installation Guide](docs/INSTALLATION.md)  
-- 📄 [About USB Watchdog](docs/ABOUT_WATCHDOG.md)  
-- 🔐 [Privacy Policy](docs/PRIVACY_POLICY.md)  
+- 🔧 [Installation Guide](docs/INSTALLATION.md)
+- 📄 [About USB Watchdog](docs/ABOUT_WATCHDOG.md)
+- 🔐 [Privacy Policy](docs/PRIVACY_POLICY.md)
 
 ---
 
@@ -59,20 +61,25 @@ USBWatchdog/
 │ ├── usb_monitor.py
 │ ├── detector.py
 │ ├── notifier.py
-│ ├── logger.py
+│ └── logger.py
+│
 ├── tools/
 │ └── banner.py
+│
 ├── logs/
 │ ├── activity.log
-│ ├── detail.log
+│ └── detail.log
+│
 ├── assets/
 │ └── images/
 │ ├── main-menu.png
 │ └── log-view.png
+│
 ├── docs/
 │ ├── INSTALLATION.md
 │ ├── ABOUT_WATCHDOG.md
 │ └── PRIVACY_POLICY.md
+│
 ├── install.bat
 ├── run.bat
 └── README.md
@@ -81,38 +88,42 @@ USBWatchdog/
 
 ## 🛠 How It Works
 
-- `usb_monitor.py` → listens for USB insertion/removal  
-- `detector.py` → scans for hidden files, autorun.inf, fake .jpg.exe malware  
-- `logger.py` → writes summary & detailed logs  
-- `notifier.py` → Windows toast notifications  
-- `usb_watchdog_service.py` → orchestrates monitoring threads  
+- `usb_monitor.py` → listens for USB insertion/removal
+- `detector.py` → scans for hidden files, autorun.inf, fake .jpg.exe malware
+- `logger.py` → writes summary & detailed logs
+- `notifier.py` → Windows toast notifications
+- `usb_watchdog_service.py` → orchestrates monitoring threads
 
 ---
 
 ## 📝 Changelog
 
 ### **v1.0.2 — (Current)**
-- Added startup banner for logs  
-- Improved advanced menu UI  
-- Added background process validation  
-- Better thread stability & error handling  
-- README improved with badges and screenshots  
+
+- Added startup banner for logs
+- Improved advanced menu UI
+- Added background process validation
+- Better thread stability & error handling
+- README improved with badges and screenshots
 
 ### **v1.0.1**
-- Added silent mode toggle  
-- Added notification test  
-- Added restart watchdog function  
-- Added cleaner for logs  
+
+- Added silent mode toggle
+- Added notification test
+- Added restart watchdog function
+- Added cleaner for logs
 
 ### **v1.0.0**
-- Initial release  
-- Real-time USB monitoring  
-- File scanning & event logging added  
-- Autorun detection system added  
+
+- Initial release
+- Real-time USB monitoring
+- File scanning & event logging added
+- Autorun detection system added
 
 ---
 
 ## 📜 License
+
 This project is licensed under the **MIT License**.  
 See the full license text in the [LICENSE](LICENSE) file.
 
@@ -142,4 +153,3 @@ SOFTWARE.
 
 Developed by **rayhanrwa**  
 For inquiries, improvements, or contributions—feel free to reach out or open an issue.
-
