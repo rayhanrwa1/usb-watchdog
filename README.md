@@ -53,39 +53,6 @@ It is ideal for technicians, computer service centers, and digital forensics.
 
 ---
 
-## 📂 Project Structure
-
-USBWatchdog/
-├── service/
-│ ├── usb_watchdog_service.py
-│ ├── usb_monitor.py
-│ ├── detector.py
-│ ├── notifier.py
-│ └── logger.py
-│
-├── tools/
-│ └── banner.py
-│
-├── logs/
-│ ├── activity.log
-│ └── detail.log
-│
-├── assets/
-│ └── images/
-│ ├── main-menu.png
-│ └── log-view.png
-│
-├── docs/
-│ ├── INSTALLATION.md
-│ ├── ABOUT_WATCHDOG.md
-│ └── PRIVACY_POLICY.md
-│
-├── install.bat
-├── run.bat
-└── README.md
-
----
-
 ## 🛠 How It Works
 
 - `usb_monitor.py` → listens for USB insertion/removal
