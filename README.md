@@ -1,7 +1,5 @@
 # USB Watchdog
 
-![Main Menu](assets/images/main-menu.png)
-
 ---
 
 ## 🛡 GitHub Badges
